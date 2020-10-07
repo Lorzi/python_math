@@ -1,9 +1,9 @@
 from droite import *
 
-print("Test droite")
-print(droite((-2, 0), (1, 1.5)))
-print(droite((0, -3), (0, 5)))
-print(droite((0, -1), (0, -1)))
+print "Test droite"
+print droite((-2, 0), (1, 1.5))
+print droite((0, -3), (0, 5)) 
+print droite((0, -1), (0, -1))
 
 print("Test appartient")
 print(appartient((-0.5, 1, 1.0), (-2, 1)))
