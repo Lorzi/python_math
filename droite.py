@@ -30,8 +30,8 @@ def intersection(d1, d2):
     det = a1 * b2 - b1 * a2
     if is_equal(det, 0):
         return None
-    x = (c1 * b1 - b1 * c2) / det
-    y = (a1 * c1 - c1 * a2) / det
+    x = float((c1 * b1 - b1 * c2)) / det
+    y = float((a1 * c1 - c1 * a2)) / det
     return (x, y)
 
 def droite_normale(d, p):
